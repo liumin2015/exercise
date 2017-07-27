@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 将可能用到的元素的内外边距设置为0 ，有些标签自带边距不去除可能对布局有影响*/
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,form,p,a,textarea,figure,figcaption{
+	padding:0;
+	margin:0;
+	overflow-x:hidden;
+}
+/* 去除常用到的元素的样式，后期自己设置 */
+ul,li{
+	list-style:none;
+}
+/* 去除ui li的 列表样式和前面的小圆点 */
+a{
+	text-decoration:none;
+	display:block;
+}
+/* 去除a标签的下划线 */
+image{
+	border:none;
+	display:block;
+}
+/* 去除image标签的边框 */
+
+.clearfloat{
+	zoom:1;
+	}
+	
+	/*CSS中主要的伪元素有四个：before/after/first-letter/first-line，
+	在before/after伪元素选择器中，有一个content属性，能够实现页面中的内容插入。*/
+.claerfloat:after{
+	clear:both;
+	display:block;
+	content:".";
+	visibility:hidden;
+	height:0;
+}
+.clearit {
+	 clear:both;
+	 height:0;
+	 font-size:0;
+	 overflow:hidden;
+	 }
+	/* 清除浮动 */
