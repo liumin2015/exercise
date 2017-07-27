@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,form,p,a,textarea{
+	padding:0;
+	margin:0;
+}
+
+ul,li{
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+	display:block;
+}
+
+image{
+	border:none;
+	display:block;
+}
+
+.clearfloat{
+	zoom:1;
+	}
+	
+.claerfloat:safter{
+	clear:both;
+	display:block;
+	content:".";  
+	visibility:hidden;
+	height:0;
+}
+.clearit {
+	 clear:both;
+	 height:0;
+	 font-size:0;
+	 overflow:hidden;
+	 }
+	
