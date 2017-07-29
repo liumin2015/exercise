@@ -15,7 +15,7 @@
 	margin-left:auto;
 	margin-right:auto;
 	height:830px;
-	background-image:url(../images/bg.png);
+/* 	background-image:url(../images/bg.png); */
 	background-repeat:repeat-y;
 }
 .left-btn{
@@ -114,7 +114,7 @@
 	margin-left:auto;
 	margin-right:auto;
 	height:1078px;
-	background-image:url(../images/bg.png);
+	/* background-image:url(../images/bg.png); */
 	background-repeat:repeat-y;
 }
 .portfolio-tittle{
@@ -234,7 +234,7 @@
 	margin-left:auto;
 	margin-right:auto;
 	height:1146px;
-	background-image:url(../images/bg.png);
+/* 	background-image:url(../images/bg.png); */
 	background-repeat:repeat-y;
 }
 .services-tittle{
@@ -421,7 +421,7 @@
 	margin-left:auto;
 	margin-right:auto;
 	height:1374px;
-	background-image:url(../images/bg.png);
+/* 	background-image:url(../images/bg.png); */
 	background-repeat:repeat-y;
 }
 .aboutUs-tittle{
@@ -631,7 +631,7 @@
 	margin-left:auto;
 	margin-right:auto;
 	height:1896px;
-	background-image:url(../images/bg.png);
+/* 	background-image:url(../images/bg.png); */
 	background-repeat:repeat-y;
 }
 .price-separate{
@@ -663,7 +663,7 @@
 	width:942px;
 	height:762px;
 	margin: 0 auto;
-	border:1px solid #000;
+/* 	border:1px solid #000; */
 }
 .price-pricing-title{
 	position:relative;
@@ -672,8 +672,93 @@
 	height:24px;
 	background-image:url(../images/price-table-line.png);
 	background-repeat:no-repeat;
-	margin: 0 auto;
+	margin: 30px auto 0 auto;
 	}
+.price-pricing-dtal{
+	height: 60px;
+	width: 700px;
+	margin:60px auto 0 auto;
+	font-size: 20px;
+	line-height: 24px;
+	color: #5e6c76;
+	font-family: "微软雅黑";
+}
+.price-pricing-table{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+.price-pricing-table-left{
+	width: 281px;
+	height: 388px;
+}
+.price-pricing-table-center{
+	width: 341px;
+	height: 468px;
+}
+.price-pricing-table-left{
+	width: 281px;
+	height: 388px;
+}
+.price-contact{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:space-around;
+	margin: 60px auto 0 auto;
+}
+.price-contact-det{
+	width: 390px;
+	height: 30px;
+	font-size: 20px;
+	color: #ffffff;
+	font-family: "微软雅黑";
+	margin-top: 30px;
+}
+.price-contact-line{
+	width: 581px;
+	height: 5px;
+	margin-top: 20px;
+}
+.price-contact-btn{
+	margin-top: 20px;
+	height: 40px;
+	width: 150px;
+	background-color: #ffffff;
+	border-radius: 4px;
+	color: #1bcbb9;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+.price-separate2 {
+    position: relative;
+    top: 36px;
+    width: 698px;
+    height: 98px;
+    background-image: url(../images/price-tittle-text-bg2.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.price-separate-content-btn2 {
+    display: block;
+    position: absolute;
+    right: 60px;
+    bottom: 25px;
+}
+.price-separate-detials2 {
+    width: 394px;
+    height: 30px;
+    position: absolute;
+    top: 40px;
+    left: 58px;
+    color: #7a858e;
+    font-size: 18px;
+}
+
 
 
 
